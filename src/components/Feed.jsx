@@ -1,14 +1,10 @@
 import React from 'react';
-import { styled } from '@mui/styles';
+import { makeStyles } from '@mui/styles';
 
-const useStyles = styled((theme) => ({}));
 
-function Feed() {
-  const classes = useStyles();
+export default function Feed() {
   return (
     <div>
     </div>
   );
 }
-
-export default Feed;

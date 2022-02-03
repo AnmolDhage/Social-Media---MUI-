@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@mui/styles';
 import Navbar from './components/Navbar';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Navbar />
@@ -10,4 +10,3 @@ function App() {
   );
 }
 
-export default App;
