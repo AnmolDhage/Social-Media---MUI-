@@ -1,13 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
-import Navbar from './components/Navbar';
 
-function App() {
+export default function Navbar() {
   return (
     <div>
-      <Navbar />
+      navasd
     </div>
   );
 }
 
-export default App;
+
